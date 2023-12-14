@@ -1,0 +1,46 @@
+{
+  "name": "matter-brighter",
+  "displayName": "MatterBrighter",
+  "description": "A theme inspired by Matter theme",
+  "license": "MIT",
+  "version": "1.0.0",
+  "publisher": "Idzu",
+  "preview": false,
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "keywords": [
+    "theme",
+    "blue",
+    "dark",
+    "matter",
+    "MatterBrighter"
+  ],
+  "scripts": {
+    "publish": "vsce publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobiastimm/vscode-matter-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tobiastimm/vscode-matter-theme/issues"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Matter",
+        "uiTheme": "vs-dark",
+        "path": "./themes/matter.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "6638fda2-bad9-40a6-b67a-3fe0860b1146",
+    "publisherDisplayName": "Tobias Timm",
+    "publisherId": "5e0244e1-b94f-4e44-8cdc-1397334a044f"
+  }
+}
